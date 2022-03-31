@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    background:rgb(0, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .fondo{
+    position: absolute;
+    top: 0px;
+    margin:0px;
+      width: 100%;
+      height:900px;
+      background-image: url(/G16-A/ClonNetflix/src/fondoindex.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 0;
+  }
+  .difumbody{
+    margin:0px;
+    width: 100%;
+    height:900px;
+    z-index: 1;
+    
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 70%, rgba(0, 0, 0, 1));
+  } 
+  .difumnav{
+    position: fixed;
+    height: 60px;
+    top: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), 20%, rgba(0, 0, 0, 1));
+    width: 100%;
+    z-index:2 ;
+  }
+  nav{
+    position: fixed;
+    height: 60px;
+    top: 0px;
+    width: 100%;
+    z-index: 3 ;
+    display: flex;
+  }
+  .left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #logo #netflix{
+    width: 100px;
+    margin-left: 10px;
+  }
+  .cardleft{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .cardright{
+    margin-right: 40px;
+    /* display: flex; */
+    align-items: center;
+  }
+  #user{
+    display: flex;
+  }
+  #userimg{
+    width: 30px;
+  }
+  .icono{
+    height: 20px;
+    object-fit: contain;
+  }
